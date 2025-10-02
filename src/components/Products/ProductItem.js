@@ -1,5 +1,4 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 
 import Card from '../UI/Card';
 import './ProductItem.css';
@@ -9,7 +8,7 @@ const ProductItem = props => {
   const dispatch = useDispatch();
 
   const toggleFavHandler = () => {
-    dispatch(toggleFav(props.id));
+
   };
 
   return (
